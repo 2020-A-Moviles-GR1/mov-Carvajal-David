@@ -36,7 +36,11 @@ fun main(args: Array<String>) {
         else -> println("No se reconoce el sueldo")
     }
 
+<<<<<<< HEAD
  /*   val esSueldoMayorAlEstablecido = if (sueldo == 12.20) true else false
+=======
+    val esSueldoMayorAlEstablecido = if (sueldo == 12.20) true else false
+>>>>>>> master
     // EXPRESION ? X : Y
     // calcularSueldo(1000.00, 14.00)
     calcularSueldo(1000.00, 14.00)
@@ -46,7 +50,11 @@ fun main(args: Array<String>) {
     ) // Named Parameters
     calcularSueldo(700.00)
     calcularSueldo(sueldo = 650.00)
+<<<<<<< HEAD
 */
+=======
+
+>>>>>>> master
     val arregloConstante: Array<Int> = arrayOf(1, 2, 3)
     val arregloCumpleanos: ArrayList<Int> = arrayListOf(30, 31, 22, 23, 20)
     print(arregloCumpleanos)
@@ -114,6 +122,7 @@ fun main(args: Array<String>) {
             }
     println(respuestaFilter)
     println(arregloCumpleanos)
+<<<<<<< HEAD
     //Any-or(some)
     //All->AND(every)
     //
@@ -208,9 +217,24 @@ fun imprimirMensaje() { // Unit = Void
         fun sumar(): Int{
             return this.numeroUno + this.numeroDos
         }
+=======
+}
+
+fun calcularSueldo(
+        sueldo: Double, // Requeridos!
+        tasa: Double = 12.00, // Tiene valor defecto
+        calculoEspecial: Int? = null // Pueden ser nulos
+): Double {
+    if (calculoEspecial != null) {
+        return sueldo * tasa * calculoEspecial
+    } else {
+        return sueldo * tasa
+>>>>>>> master
     }
+}
 
 
+<<<<<<< HEAD
 
 
 
@@ -221,3 +245,9 @@ fun imprimirMensaje() { // Unit = Void
 
 
 //cambio x2
+=======
+fun imprimirMensaje() { // Unit = Void
+    println("")
+}
+
+>>>>>>> master
