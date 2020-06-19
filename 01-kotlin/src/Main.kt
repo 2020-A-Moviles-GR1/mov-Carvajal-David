@@ -36,7 +36,11 @@ fun main(args: Array<String>) {
         else -> println("No se reconoce el sueldo")
     }
 
+<<<<<<< HEAD
+ /*   val esSueldoMayorAlEstablecido = if (sueldo == 12.20) true else false
+=======
     val esSueldoMayorAlEstablecido = if (sueldo == 12.20) true else false
+>>>>>>> master
     // EXPRESION ? X : Y
     // calcularSueldo(1000.00, 14.00)
     calcularSueldo(1000.00, 14.00)
@@ -46,7 +50,11 @@ fun main(args: Array<String>) {
     ) // Named Parameters
     calcularSueldo(700.00)
     calcularSueldo(sueldo = 650.00)
+<<<<<<< HEAD
+*/
+=======
 
+>>>>>>> master
     val arregloConstante: Array<Int> = arrayOf(1, 2, 3)
     val arregloCumpleanos: ArrayList<Int> = arrayListOf(30, 31, 22, 23, 20)
     print(arregloCumpleanos)
@@ -114,7 +122,59 @@ fun main(args: Array<String>) {
             }
     println(respuestaFilter)
     println(arregloCumpleanos)
-}
+<<<<<<< HEAD
+    //Any-or(some)
+    //All->AND(every)
+    //
+
+    //Any -> Filtrar el Arreglo
+    //AND -> TRUE, todo lo demas falso
+    // OR -> Todo es falso, lo demas era verdaderp
+    //1)Devolver una expresion (TRUE o FALSE)
+    //2) Nuevo arreglo que cumpla esa expresion
+    //val arregloCumpleanos: ArrayList<Int> = arrayListOf(30, 31, 22, 23, 20)
+
+    val respuestaAny : Boolean = arregloCumpleanos
+        .any { iterador:Int -> return@any iterador < 25
+
+        }
+    println(respuestaAny)
+
+
+
+    val respuestaAll : Boolean = arregloCumpleanos
+        .all{ iterador : Int -> return@all iterador >65
+
+        }
+    println(respuestaAll)
+
+    //REDUCE
+    //1)Devuelve el acumulado
+    //2)En que valor empieza
+    val respuestaReduce :Int = arregloCumpleanos
+            .reduce{ acumulador, iteracion -> return@reduce acumulador + iteracion
+
+            }
+    println(respuestaReduce)
+
+    val respuestaFold: Int = arregloCumpleanos
+            .fold(100,
+                    { acumulador, iteracion ->
+                        return@fold acumulador - iteracion
+                    }
+            )
+    println(respuestaFold)
+
+    val vidaActual: Double = arregloCumpleanos
+            .map { it * 0.8 } //(30,31,22,23,20)
+            .filter { it>18 }
+            .fold(
+                    100.00,
+                    {acc, d-> acc -d}
+            )
+            .also { println(it) }
+    println(vidaActual)
+
 
 fun calcularSueldo(
         sueldo: Double, // Requeridos!
@@ -133,3 +193,61 @@ fun imprimirMensaje() { // Unit = Void
     println("")
 }
 
+
+// Clases Abstractas
+
+    abstract class NumerosJava{  // val nuevosNumeros = Numeros(1,2)
+        protected val numeroUno:Int
+        private val numeroDos:Int
+        constructor(uno:Int, dos:Int){
+            numeroUno = uno
+            numeroDos = dos
+        }
+    }
+    abstract class Numeros( // val nuevosNumeros = Numeros(1,2)
+            protected val numeroUno:Int,
+            protected val numeroDos:Int
+    ){
+    }
+
+    class Suma (
+             uno: Int,
+             dos: Int
+    ):Numeros(uno,dos){
+        fun sumar(): Int{
+            return this.numeroUno + this.numeroDos
+        }
+=======
+}
+
+fun calcularSueldo(
+        sueldo: Double, // Requeridos!
+        tasa: Double = 12.00, // Tiene valor defecto
+        calculoEspecial: Int? = null // Pueden ser nulos
+): Double {
+    if (calculoEspecial != null) {
+        return sueldo * tasa * calculoEspecial
+    } else {
+        return sueldo * tasa
+>>>>>>> master
+    }
+}
+
+
+<<<<<<< HEAD
+
+
+
+}
+
+
+
+
+
+//cambio x2
+=======
+fun imprimirMensaje() { // Unit = Void
+    println("")
+}
+
+>>>>>>> master
