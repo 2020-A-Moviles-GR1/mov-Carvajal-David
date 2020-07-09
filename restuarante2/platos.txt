@@ -1,0 +1,3 @@
+seco de pollo|2.5|
+seco de carne|2.25|
+arroz con pollo|1.75|
