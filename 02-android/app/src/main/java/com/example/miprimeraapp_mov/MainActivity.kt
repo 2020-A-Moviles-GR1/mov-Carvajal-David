@@ -16,7 +16,20 @@ class MainActivity : AppCompatActivity() {
 
         btn_ciclo_vida.setOnClickListener { boton -> irCicloDeVida() } //tambien se puede utilizar this.irciclodeVida
 
+        btn_ciclo_vida.setOnClickListener { boton -> irListView() } //tambien se puede utilizar this.irciclodeVida
+
     }
+
+
+
+    fun irListView(){
+        val intentExplicito = Intent(
+            this,BListViewActivity::class.java
+        )
+        //this.startActivity(intentExplicito)
+        startActivity(intentExplicito)
+    }
+
 
     fun irCicloDeVida() {
         val intentExplicito = Intent(

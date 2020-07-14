@@ -2,13 +2,13 @@ import java.io.File
 
 fun main(args:Array<String>) {
     val platos = ArrayList<Platos>()
-    leerPlatos(platos)
+    //12leerPlatos(platos)
     menuPrincipal(platos)
 }
 
 public class Platos(
-    var NombrePlato:String,
-    var valor:Float
+        var NombrePlato:String,
+        var valor:Float
 ){
     override fun toString(): String {
         return "Platos(Nombre='$NombrePlato', Valor=$valor.)"
@@ -41,7 +41,7 @@ fun eliminarPlato(platos: ArrayList<Platos>){
 
 fun leerPlatos(platos: ArrayList<Platos>) {
     File("platos.txt").forEachLine { var p = it.split("|")
-    platos.add(Platos(p[0].toString(),p[1].toFloat()))
+        platos.add(Platos(p[0].toString(),p[1].toFloat()))
     }
     menuPrincipal(platos)
 }
@@ -81,7 +81,7 @@ fun guardaPlatos(platos: ArrayList<Platos>){
 
 fun menuPrincipal(platos: ArrayList<Platos>){
     var menuPlatos:String
-    menuPlatos="**************************************"+"\n"
+    menuPlatos="**************"+"\n"
     menuPlatos+="           COMEDOR DE DORITA         "+"\n"
     menuPlatos+="        Registro de Platos           "+"\n"
     menuPlatos+="  1. Agregar un Plato                "+"\n"
@@ -89,7 +89,7 @@ fun menuPrincipal(platos: ArrayList<Platos>){
     menuPlatos+="  3.Modificar Plato                  "+"\n"
     menuPlatos+="  4.Eliminar Plato del Menu          "+"\n"
     menuPlatos+="  5.Salir                            "+"\n"
-    menuPlatos+="*************************************"+"\n"
+    menuPlatos+="*************"+"\n"
     print(menuPlatos)
     var op:Int
     while (true){

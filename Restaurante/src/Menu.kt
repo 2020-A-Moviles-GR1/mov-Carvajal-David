@@ -1,5 +1,5 @@
 import java.io.File
-
+import kotlin.collections.ArrayList
 fun main(args:Array<String>) {
     val platos = ArrayList<Platos>()
     leerPlatos(platos)
@@ -40,7 +40,10 @@ fun eliminarPlato(platos: ArrayList<Platos>){
 }
 
 fun leerPlatos(platos: ArrayList<Platos>) {
-    File("platos.txt").forEachLine { var p = it.split("|")
+    File("platos.txt").forEachLine {
+        var p = it.split("|")
+
+        //platos.add(Platos(p[0].toString(),p[1].toFloat()))
         platos.add(Platos(p[0].toString(),p[1].toFloat()))
     }
     menuPrincipal(platos)
