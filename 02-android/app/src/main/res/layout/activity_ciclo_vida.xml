@@ -20,7 +20,7 @@
         android:id="@+id/btn_Anadir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ANADIR"
+        android:text="AnadirNumero"
         app:layout_constraintEnd_toEndOf="@+id/tv_numero"
         app:layout_constraintStart_toStartOf="@+id/tv_numero"
         tools:layout_editor_absoluteY="364dp" />
