@@ -36,8 +36,8 @@ fun main(args: Array<String>) {
         else -> println("No se reconoce el sueldo")
     }
 
-<<<<<<< HEAD
- /*   val esSueldoMayorAlEstablecido = if (sueldo == 12.20) true else false
+
+    /*   val esSueldoMayorAlEstablecido = if (sueldo == 12.20) true else false
 =======
     val esSueldoMayorAlEstablecido = if (sueldo == 12.20) true else false
 >>>>>>> master
@@ -52,9 +52,8 @@ fun main(args: Array<String>) {
     calcularSueldo(sueldo = 650.00)
 <<<<<<< HEAD
 */
-=======
 
->>>>>>> master
+
     val arregloConstante: Array<Int> = arrayOf(1, 2, 3)
     val arregloCumpleanos: ArrayList<Int> = arrayListOf(30, 31, 22, 23, 20)
     print(arregloCumpleanos)
@@ -97,7 +96,7 @@ fun main(args: Array<String>) {
             .map { iterador: Int ->
                 iterador * -1
             }
-    val respuestaMapDos= arregloCumpleanos
+    val respuestaMapDos = arregloCumpleanos
             .map { iterador: Int ->
                 val nuevoValor = iterador * -1
                 val otroValor = nuevoValor * 2
@@ -111,18 +110,17 @@ fun main(args: Array<String>) {
     // 1) Devolver una expresion (TRUE o FALSE)
     // 2) Nuevo arreglo que cumpla esa expresion
     val respuestaFilter = arregloCumpleanos
-            .filter {
-                iteracion:Int ->
+            .filter { iteracion: Int ->
                 val esMayorA23 = iteracion > 23
                 return@filter esMayorA23
             }
     arregloCumpleanos
-            .filter {
-                iteracion:Int -> iteracion > 23
+            .filter { iteracion: Int ->
+                iteracion > 23
             }
     println(respuestaFilter)
     println(arregloCumpleanos)
-<<<<<<< HEAD
+
     //Any-or(some)
     //All->AND(every)
     //
@@ -134,25 +132,27 @@ fun main(args: Array<String>) {
     //2) Nuevo arreglo que cumpla esa expresion
     //val arregloCumpleanos: ArrayList<Int> = arrayListOf(30, 31, 22, 23, 20)
 
-    val respuestaAny : Boolean = arregloCumpleanos
-        .any { iterador:Int -> return@any iterador < 25
+    val respuestaAny: Boolean = arregloCumpleanos
+            .any { iterador: Int ->
+                return@any iterador < 25
 
-        }
+            }
     println(respuestaAny)
 
 
+    val respuestaAll: Boolean = arregloCumpleanos
+            .all { iterador: Int ->
+                return@all iterador > 65
 
-    val respuestaAll : Boolean = arregloCumpleanos
-        .all{ iterador : Int -> return@all iterador >65
-
-        }
+            }
     println(respuestaAll)
 
     //REDUCE
     //1)Devuelve el acumulado
     //2)En que valor empieza
-    val respuestaReduce :Int = arregloCumpleanos
-            .reduce{ acumulador, iteracion -> return@reduce acumulador + iteracion
+    val respuestaReduce: Int = arregloCumpleanos
+            .reduce { acumulador, iteracion ->
+                return@reduce acumulador + iteracion
 
             }
     println(respuestaReduce)
@@ -167,76 +167,126 @@ fun main(args: Array<String>) {
 
     val vidaActual: Double = arregloCumpleanos
             .map { it * 0.8 } //(30,31,22,23,20)
-            .filter { it>18 }
+            .filter { it > 18 }
             .fold(
                     100.00,
-                    {acc, d-> acc -d}
+                    { acc, d -> acc - d }
             )
             .also { println(it) }
+
+
+    //    val nuevoNumeroUno = SumarDosNumerosDos(1,1)
+//    val nuevoNumeroDos = SumarDosNumerosDos(null,1)
+//    val nuevoNumeroTres = SumarDosNumerosDos(1,null)
+//    val nuevoNumeroCuatro = SumarDosNumerosDos(null,null)
+    val nuevoNumeroUno = SumarDosNumerosDos(1, 1)
+    val nuevoNumeroDos = SumarDosNumerosDos(null, 1)
+    val nuevoNumeroTres = SumarDosNumerosDos(1, null)
+    val nuevoNumeroCuatro = SumarDosNumerosDos(null, null)
+    println(SumarDosNumerosDos.arregloNUmeros)
+    SumarDosNumerosDos.agregarNumero()
+    println(SumarDosNumerosDos.arregloNUmeros)
+    SumarDosNumerosDos.eliminarNUmero(0)
+
+
     println(vidaActual)
 
 
-fun calcularSueldo(
-        sueldo: Double, // Requeridos!
-        tasa: Double = 12.00, // Tiene valor defecto
-        calculoEspecial: Int? = null // Pueden ser nulos
-): Double {
-    if (calculoEspecial != null) {
-        return sueldo * tasa * calculoEspecial
-    } else {
-        return sueldo * tasa
+    fun calcularSueldo(
+            sueldo: Double, // Requeridos!
+            tasa: Double = 12.00, // Tiene valor defecto
+            calculoEspecial: Int? = null // Pueden ser nulos
+    ): Double {
+        if (calculoEspecial != null) {
+            return sueldo * tasa * calculoEspecial
+        } else {
+            return sueldo * tasa
+        }
     }
-}
 
 
-fun imprimirMensaje() { // Unit = Void
-    println("")
+
 }
+
 
 
 // Clases Abstractas
 
-    abstract class NumerosJava{  // val nuevosNumeros = Numeros(1,2)
-        protected val numeroUno:Int
-        private val numeroDos:Int
-        constructor(uno:Int, dos:Int){
-            numeroUno = uno
-            numeroDos = dos
-        }
-    }
-    abstract class Numeros( // val nuevosNumeros = Numeros(1,2)
-            protected val numeroUno:Int,
-            protected val numeroDos:Int
-    ){
-    }
+abstract class NumerosJava {  // val nuevosNumeros = Numeros(1,2)
+    protected val numeroUno: Int
+    private val numeroDos: Int
 
-    class Suma (
-             uno: Int,
-             dos: Int
-    ):Numeros(uno,dos){
-        fun sumar(): Int{
-            return this.numeroUno + this.numeroDos
-        }
-=======
-}
-
-fun calcularSueldo(
-        sueldo: Double, // Requeridos!
-        tasa: Double = 12.00, // Tiene valor defecto
-        calculoEspecial: Int? = null // Pueden ser nulos
-): Double {
-    if (calculoEspecial != null) {
-        return sueldo * tasa * calculoEspecial
-    } else {
-        return sueldo * tasa
->>>>>>> master
+    constructor(uno: Int, dos: Int) {
+        numeroUno = uno
+        numeroDos = dos
     }
 }
 
+abstract class Numeros( // val nuevosNumeros = Numeros(1,2)
+        protected var numeroUno: Int,
+        protected var numeroDos: Int
+) {
+}
 
-<<<<<<< HEAD
+class Suma(
+        uno: Int, // Parametro
+        dos: Int // Parametro
+) : Numeros(uno, dos) {
+    fun sumar(): Int {
+        // this.uno o this.dos NO ESTAN DISPONIBLES
+        return this.numeroUno + this.numeroDos
+    }
+}
 
+class SumaDos(
+        uno: Int, // Propiedades
+        dos: Int // Propiedades
+) : Numeros(uno, dos) {
 
+    fun sumar(): Int {
+        return this.numeroUno + this.numeroDos
+    }
+}
+//constructores
+class SumarDosNumerosDos(
+        uno: Int,
+        dos: Int
+) : Numeros(uno, dos) {
+    init {
+        println("Hola INIT")
+    }
+
+    constructor(uno: Int?, dos: Int) : this(
+            if (uno == null) 0 else uno,
+            dos
+    ) {
+        print("Hola 1")
+    }
+
+    constructor(uno: Int, dos: Int?) : this(
+            uno,
+            if (dos == null) 0 else dos
+    ) {
+        print("Hola 2")
+    }
+
+    constructor(uno: Int?, dos: Int?) : this(
+            if (uno == null) 0 else uno,
+            if (dos == null) 0 else dos
+    ) {
+        print("Hola 3")
+    }
+    //permite todo lo que sea estatico
+    companion object{
+        val arregloNUmeros= arrayListOf(1,2,3,4)
+
+        fun arregloNUmero(nuevoNumero: Int){
+            this.arregloNUmeros.add(nuevoNumero)
+        }
+        fun eliminarNUmero(posicionNumero: Int){
+            this.arregloNUmeros.removeAt(posicionNumero)
+        }
+    }
 
 }
 
@@ -245,9 +295,6 @@ fun calcularSueldo(
 
 
 //cambio x2
-=======
-fun imprimirMensaje() { // Unit = Void
-    println("")
-}
 
->>>>>>> master
+
+
