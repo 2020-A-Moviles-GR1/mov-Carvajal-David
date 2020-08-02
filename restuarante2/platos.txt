@@ -1,4 +1,0 @@
-seco de pollo|2.5|
-guatita|3.0|
-encebollado|3.5|
-sopa de pollo|1.5|

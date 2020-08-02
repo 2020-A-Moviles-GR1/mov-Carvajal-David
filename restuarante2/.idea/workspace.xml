@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b95736d0-3764-4b2b-9311-e4be3da102b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Restaurante/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Restaurante/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Restaurante/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Restaurante/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenRestaurante/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamenRestaurante/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurante/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurante/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurante/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/Restaurante.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurante/Restaurante.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/out/production/Restaurante/META-INF/Restaurante.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/out/production/Restaurante/MenuKt$actualizarPlatos$esteplato$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/out/production/Restaurante/MenuKt$eliminarPlato$estePlatos$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/out/production/Restaurante/MenuKt$leerPlatos$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/out/production/Restaurante/MenuKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/out/production/Restaurante/Platos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/platos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/src/Menu.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.kt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ProjectId" id="1eNwr0zp3oZOZ0Gjg8TeyOkJVJ3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Restaurante" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Kotlin.MenuKt">
+    <configuration name="MainKt" type="JetRunConfigurationType" nameIsGenerated="true">
+      <module name="restuarante2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Menu2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="restuarante2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Menu2Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuKt" type="JetRunConfigurationType" nameIsGenerated="true">
+      <module name="restuarante2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MenuKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Kotlin.MainKt" />
+      <item itemvalue="Kotlin.MenuKt" />
+      <item itemvalue="Kotlin.Menu2Kt" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.Menu2Kt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b95736d0-3764-4b2b-9311-e4be3da102b0" name="Default Changelist" comment="" />
+      <created>1594175553082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594175553082</updated>
+      <workItem from="1594175556447" duration="21329000" />
+      <workItem from="1594297739184" duration="2301000" />
+      <workItem from="1594302061052" duration="1081000" />
+      <workItem from="1594498964571" duration="2220000" />
+      <workItem from="1594860753827" duration="1939000" />
+      <workItem from="1594862809932" duration="9000" />
+      <workItem from="1596157150777" duration="904000" />
+      <workItem from="1596387096364" duration="672000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" width="816" height="775" key="#Intentions" timestamp="1594246101001">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" width="816" height="775" key="#Intentions/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1594246101001" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1594175575256">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1594175575256" />
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594222789668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1594222789668" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1594302236698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1594302236698" />
+    <state width="1877" height="322" key="GridCell.Tab.0.bottom" timestamp="1594862694914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1594524325271" />
+    <state width="1877" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594862694914" />
+    <state width="1877" height="322" key="GridCell.Tab.0.center" timestamp="1594862694913">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1594524325271" />
+    <state width="1877" height="322" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594862694913" />
+    <state width="1877" height="322" key="GridCell.Tab.0.left" timestamp="1594862694913">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1594524325271" />
+    <state width="1877" height="322" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594862694913" />
+    <state width="1877" height="322" key="GridCell.Tab.0.right" timestamp="1594862694914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1594524325271" />
+    <state width="1877" height="322" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594862694914" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1594222203918">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1594222203918" />
+    <state x="959" y="0" width="930" height="1024" key="dock-window-1" timestamp="1594255025821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="959" y="0" width="930" height="1024" key="dock-window-1/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1594255025821" />
+    <state x="342" y="121" key="new project wizard" timestamp="1594267425313">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="121" key="new project wizard/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1594267425313" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1596157244882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596157244882" />
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1594256945487">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1594256945487" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/restuarante2$MainKt.ic" NAME="MainKt Coverage Results" MODIFIED="1594177038946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
