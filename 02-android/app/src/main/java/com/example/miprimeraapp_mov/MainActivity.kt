@@ -6,7 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.ContactsContract
 import android.util.Log
+import com.example.moviles.Usuario
 import kotlinx.android.synthetic.main.activity_main.*
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -56,8 +58,27 @@ class MainActivity : AppCompatActivity() {
                 Log.i("resultado","okok")
 
                 when(requestCode){
-                    420->{...}
-                    421->{
+                   421->{ //Contactos
+                        val uri = data?.data
+                        if (uri != null) {
+                            val cursor = contentResolver.query(
+                                uri,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            )
+                            cursor?.moveToFirst()
+                            val indiceTelefono = cursor?.getColumnIndex(
+                                ContactsContract.CommonDataKinds.Phone.NUMBER
+                            )
+                            val telefono = cursor?.getString(indiceTelefono!!)
+                            cursor?.close()
+                            Log.i("resultado", "Telefono: ${telefono}")
+                        }
+                    }
+                    420->{
                    // val  uri =data?.data
                     //if (uri != null)
                     if (data!=null)
@@ -88,6 +109,13 @@ class MainActivity : AppCompatActivity() {
             this, IntentEnviarParametros:: class.java
         )
         intenetExplicito.putExtra("numero", 420)
+
+        val David = Usuario("David", 31, Date(), 1.0)
+        val cachetes = Mascota("Cachetes", David)
+        val arregloMascotas = arrayListOf<Mascota>(cachetes)
+
+        intenetExplicito.putExtra("cachetes", cachetes)
+        intenetExplicito.putExtra("arregloMascotas", arregloMascotas)
         startActivity(intenetExplicito)
     }
 

@@ -21,6 +21,20 @@
       <change beforePath="$PROJECT_DIR$/../Restaurante/out/production/Restaurante/Platos.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Restaurante/platos.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Restaurante/src/Menu.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restuarante2/META-INF/restuarante2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restuarante2/MenuKt$actualizarPlatos$esteplato$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restuarante2/MenuKt$eliminarPlato$estePlatos$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restuarante2/MenuKt$leerPlatos$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restuarante2/MenuKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restuarante2/Platos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restuarante2.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Menu.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +145,7 @@
       <workItem from="1594860753827" duration="1939000" />
       <workItem from="1594862809932" duration="9000" />
       <workItem from="1596157150777" duration="904000" />
-      <workItem from="1596387096364" duration="672000" />
+      <workItem from="1596387096364" duration="1277000" />
     </task>
     <servers />
   </component>
