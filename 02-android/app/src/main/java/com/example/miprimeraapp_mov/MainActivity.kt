@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.ContactsContract
 import android.util.Log
+import com.example.moviles.HttpActivity
 import com.example.moviles.Usuario
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
@@ -30,7 +31,19 @@ class MainActivity : AppCompatActivity() {
 
         btn_resp_propia.setOnClickListener { enviarIntentConRespuesta() }
 
+        btn_http.setOnClickListener {
+            abrirActividadHttp() }
+
+
     }
+
+    fun abrirActividadHttp(){
+        val intentExplicito = Intent(
+            this, HttpActivity::class.java
+        )
+        startActivity(intentExplicito)
+    }
+
 
     fun enviarIntentConRespuestaPropia(){
         val intenetExplicito = Intent(
