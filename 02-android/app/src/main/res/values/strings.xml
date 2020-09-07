@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MiPrimeraApp-mov</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
