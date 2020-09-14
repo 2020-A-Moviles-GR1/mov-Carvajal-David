@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         btn_ciclo_vida.setOnClickListener { boton -> irCicloDeVida() } //tambien se puede utilizar this.irciclodeVida
 
-        btn_ciclo_vida.setOnClickListener { boton -> irListView() } //tambien se puede utilizar this.irciclodeVida
+        //btn_ciclo_vida.setOnClickListener { boton -> irListView() } //tambien se puede utilizar this.irciclodeVida
 
         btn_list_view.setOnClickListener { boton -> irListView() }
 
@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         btn_intent_implicito.setOnClickListener { enviarIntentConRespuesta() }
 
-        btn_resp_propia.setOnClickListener { enviarIntentConRespuesta() }
+        btn_resp_propia.setOnClickListener { enviarIntentConRespuestaPropia() }
 
         btn_http.setOnClickListener {
             abrirActividadHttp() }
@@ -72,14 +72,14 @@ class MainActivity : AppCompatActivity() {
         val intenetExplicito = Intent(
             this, IntentEnviarParametros:: class.java
         )
-        startActivityForResult(intenetExplicito, 421)
+        startActivityForResult(intenetExplicito, 305)
     }
 
     fun enviarIntentConRespuesta(){
         val intentConRespuesta = Intent(Intent.ACTION_PICK, ContactsContract.CommonDataKinds.Phone.CONTENT_URI)
         //this.startActivityForResult(intent, codigoRespuesta 420)
         //420 los pusimos nostros, no es ningun numero en especial
-        this.startActivityForResult(intentConRespuesta, 420)
+        this.startActivityForResult(intentConRespuesta, 304)
 
 
     }
@@ -89,7 +89,7 @@ class MainActivity : AppCompatActivity() {
         data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         when(resultCode){
-            Activity.RESULT_OK ->{
+            RESULT_OK ->{
 
                 Log.i("resultado","okok")
 
@@ -114,8 +114,8 @@ class MainActivity : AppCompatActivity() {
                             Log.i("resultado", "Telefono: ${telefono}")
                         }
                     }
-                    420->{
-                   // val  uri =data?.data
+                    304->{
+                   //val  uri =data?.data
                     //if (uri != null)
                     if (data!=null)
                     {

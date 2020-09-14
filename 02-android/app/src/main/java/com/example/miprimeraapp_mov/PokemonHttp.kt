@@ -3,9 +3,9 @@ package com.example.miprimeraapp_mov
 import java.util.*
 
 class PokemonHttp (
-    var id:Int,
     var createdAt: Long,
     var updatedAt: Long,
+    var id:Int,
     var nombre: String,
     var usuario: Integer
 ){

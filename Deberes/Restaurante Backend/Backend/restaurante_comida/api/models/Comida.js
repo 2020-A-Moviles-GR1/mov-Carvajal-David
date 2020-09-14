@@ -4,7 +4,7 @@
  * @description :: A model definition represents a database table/collection.
  * @docs        :: https://sailsjs.com/docs/concepts/models-and-orm/models
  */
-
+//INGREDIENTES
 module.exports = {
 
   attributes: {
@@ -12,12 +12,6 @@ module.exports = {
     nombre: {
       type: 'string'
       
-    },
-    numeroIngredientes:{
-      type: 'string'
-    },
-    fechaRealizada:{
-      type: 'string'
     }
     
    

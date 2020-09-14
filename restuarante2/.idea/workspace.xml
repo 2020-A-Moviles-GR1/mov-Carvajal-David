@@ -2,40 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b95736d0-3764-4b2b-9311-e4be3da102b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Restaurante/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Restaurante/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Restaurante/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Restaurante/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExamenRestaurante/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamenRestaurante/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Restaurante/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Restaurante/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Restaurante/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurante/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Restaurante/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurante/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Restaurante/app/src/main/java/com/carvajaldavid/restaurante/dao/IngredientesHttp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Restaurante/app/src/main/java/com/carvajaldavid/restaurante/dao/RecetaHttp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-android/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-android/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deberes/Restaurante Backend/Backend/restaurante_comida/api/models/Comida.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Deberes/Restaurante Backend/Backend/restaurante_comida/api/models/Comida.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deberes/Restaurante Backend/Backend/restaurante_comida/api/models/Restaurante.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Deberes/Restaurante Backend/Backend/restaurante_comida/api/models/Restaurante.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Restaurante/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurante/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Restaurante/Restaurante.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurante/Restaurante.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Restaurante/out/production/Restaurante/META-INF/Restaurante.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Restaurante/out/production/Restaurante/MenuKt$actualizarPlatos$esteplato$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Restaurante/out/production/Restaurante/MenuKt$eliminarPlato$estePlatos$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Restaurante/out/production/Restaurante/MenuKt$leerPlatos$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Restaurante/out/production/Restaurante/MenuKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Restaurante/out/production/Restaurante/Platos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Restaurante/platos.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Restaurante/src/Menu.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restuarante2/META-INF/restuarante2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restuarante2/MenuKt$actualizarPlatos$esteplato$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restuarante2/MenuKt$eliminarPlato$estePlatos$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restuarante2/MenuKt$leerPlatos$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restuarante2/MenuKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restuarante2/Platos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platos.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restuarante2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Restaurante" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Examen 1mer Bimestre" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -119,8 +91,8 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.MainKt" />
-      <item itemvalue="Kotlin.MenuKt" />
       <item itemvalue="Kotlin.Menu2Kt" />
+      <item itemvalue="Kotlin.MenuKt" />
     </list>
     <recent_temporary>
       <list>
@@ -165,10 +137,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1594222789668" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1594302236698">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1599696380540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1594302236698" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599696380540" />
     <state width="1877" height="322" key="GridCell.Tab.0.bottom" timestamp="1594862694914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

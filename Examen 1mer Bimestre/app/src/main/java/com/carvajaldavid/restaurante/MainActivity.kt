@@ -5,6 +5,8 @@ import java.io.OutputStreamWriter
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.carvajaldavid.restaurante.DataCompanion.Companion.ingredientes
+import com.carvajaldavid.restaurante.DataCompanion.Companion.receta
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -66,6 +68,7 @@ class MainActivity : AppCompatActivity() {
         //ver
         btnView.setOnClickListener{
             val ingredientes= DataCompanion.leerIngredientes();
+            DataCompanion.obtenerReceta()
             val receta: Array<Receta?> = DataCompanion.leerRecetas();
             var recetas:String?;
             var ingrediente:String?;
@@ -88,13 +91,13 @@ class MainActivity : AppCompatActivity() {
                 }
 
             }
-            message = recetas+"\n"+ingrediente
+            message = recetas+"\n"+ingredientes
 
             val dialogBuilder = AlertDialog.Builder(this).setIcon(
                 android.R.drawable.ic_dialog_alert)
             dialogBuilder.setTitle("Recetas e ingredients")
 
-            dialogBuilder.setMessage(message)
+            dialogBuilder.setMessage("")
             dialogBuilder.setPositiveButton("Accept", DialogInterface.OnClickListener { _, _ ->
                
             })
